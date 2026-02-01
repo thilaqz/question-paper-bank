@@ -1,0 +1,18 @@
+[
+  {
+    "institution": "Govt Higher Secondary School",
+    "level": "school",
+    "course": "10",
+    "subject": "Mathematics",
+    "year": "2023",
+    "file": "papers/school/10/maths_2023.pdf"
+  },
+  {
+    "institution": "ABC College",
+    "level": "college",
+    "course": "BSc CS",
+    "subject": "Programming in C",
+    "year": "2022",
+    "file": "papers/college/BSc_CS/sem1_2022.pdf"
+  }
+]

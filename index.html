@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question Paper Bank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📚 Question Paper Bank</h1>
+  <p class="tagline">Find previous question papers instantly</p>
+
+  <div class="search-box">
+    <input type="text" id="collegeInput" placeholder="Enter School / College name">
+    
+    <select id="levelSelect">
+      <option value="">Select Level</option>
+      <option value="school">School</option>
+      <option value="college">College</option>
+    </select>
+
+    <input type="text" id="courseInput" placeholder="Standard / Course">
+    
+    <button onclick="searchPapers()">Search</button>
+  </div>
+
+  <div id="results"></div>
+
+  <footer>
+    <p>For educational use only. Not affiliated with any institution.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
